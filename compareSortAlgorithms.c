@@ -99,7 +99,7 @@ int parseData(char *inputFileName, int **ppData)
 	{
 		fscanf(inFile,"%d\n",&dataSz);
 		*ppData = (int *)Alloc(sizeof(int) * dataSz);
-		// Implement parse data block
+		// Implement parse data block****************************************
 	}
 	
 	return dataSz;
